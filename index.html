@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .Name {
+            display: grid;
+            grid-template-columns: 30% 30%;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .reqstar {
+            color: red;
+        }
+
+        th {
+            padding: 5px;
+            font-weight: normal;
+
+        }
+
+        td {
+            text-align: center;
+            font-weight: normal;
+
+        }
+
+        .baseContainer-sub {
+            display: flex;
+            align-items: center;
+        }
+
+        .m-2 {
+            margin: 0.5rem !important;
+        }
+
+        .star {
+            cursor: pointer;
+            width: 2em;
+            height: 2em;
+            background-color: rgb(206, 177, 15);
+            -webkit-clip-path: polygon(50% 0, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0 38%, 37% 38%);
+            clip-path: polygon(50% 0, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0 38%, 37% 38%);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div class="Name">
+            <div>
+                <label for="first">Name</label>
+                <span class="reqstar">*</span><br>
+                <input type="text" id="first" required><br>
+                <span>Name</span>
+            </div>
+            <div>
+                <br>
+                <input type="text" required><br>
+                <span>Last</span>
+            </div>
+
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <span class="reqstar">*</span><br>
+            <input type="email" id="email" required><br>
+        </div>
+        <label for="experience" required>Your Experience</label>
+        <span class="reqstar">*</span><br>
+        <div class="baseContainer-sub">
+            <div class="row text-center">
+                <div class="d-flex justify-content-center">
+                    <div class="m-2">
+                        <div class="star">
+
+
+                        </div>
+                    </div>
+                    <div class="m-2">
+                        <div class="star">
+                        </div>
+                    </div>
+                    <div class="m-2">
+                        <div class="star">
+
+                        </div>
+                    </div>
+                    <div class="m-2">
+                        <div class="star">
+
+                        </div>
+                    </div>
+                    <div class="m-2">
+                        <div class="star">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <span>Overall,how would you rate you experience with us?</span><br>
+        <br>
+        <div>
+            <label for="" required>How satisfied are you with</label>
+            <span class="reqstar">*</span><br>
+            <table>
+                <tr></tr>
+                <tr>
+                    <th></th>
+                    <th>Very Unsatisfied</th>
+                    <th>Unsatisfied</th>
+                    <th>Neutral</th>
+                    <th>Satisfied</th>
+                    <th>Very satisfied</th>
+                </tr>
+                <tr>
+                    <th>Purchasse</th>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                </tr>
+                <tr>
+                    <th>Service</th>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                </tr>
+                <tr>
+                    <th>Company Overall</th>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                </tr>
+            </table><br>
+        </div>
+        <div>
+            <label for="" required>How likely are you to</label>
+            <span class="reqstar">*</span><br>
+            <table>
+                <tr></tr>
+                <tr>
+                    <th></th>
+                    <th>Very Unlikely</th>
+                    <th>Unlikely</th>
+                    <th>Neutral</th>
+                    <th>Likely</th>
+                    <th>Very Likely</th>
+                </tr>
+                <tr>
+                    <th>Buy form us again</th>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                </tr>
+                <tr>
+                    <th>Recommend our product to others</th>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                </tr>
+                <tr>
+                    <th>Recommend our company to other</th>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                    <td><input type="radio" name="" id=""></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <label for="">Additional comments or suggestions</label><br>
+            <textarea rows="5" cols="100"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="submit">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
